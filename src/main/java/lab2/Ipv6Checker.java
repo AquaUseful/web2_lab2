@@ -15,7 +15,6 @@ public class Ipv6Checker {
             "(" + ipv6Seg + ":){1,2}(:" + ipv6Seg + "){1,5}|" +
             ipv6Seg + ":((:" + ipv6Seg + "){1,6})|" +
             ":((:" + ipv6Seg + "){1,7}|:)|" +
-            "fe80:(:" + ipv6Seg + "){0,4}%[0-9a-zA-Z]{1,}|" +
             ")";
     private static final Pattern pattern = Pattern.compile(ipv6RegexStr);
 
