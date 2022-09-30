@@ -10,9 +10,9 @@ public class Main {
         final String input = scn.nextLine();
 
         if (Ipv6Checker.checkStr(input)) {
-            System.out.println("Ok!");
+            System.out.println("String is VALID IPv6 address");
         } else {
-            System.out.println("Error!");
+            System.out.println("String is INVALID IPv6 address");
         }
 
         scn.close();
